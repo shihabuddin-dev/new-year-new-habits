@@ -1,0 +1,101 @@
+
+
+/* common Style */
+.btn-primary{
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(241, 91, 34);
+    }
+
+
+    /* Hero Section Style */
+ header{
+    display: flex;
+    
+    align-items: center;
+
+ }
+ header>div{
+    width: 50%;
+ }
+.hero-bg{
+    width: 1255px;
+    
+    
+
+}
+.hero{
+    text-align: right;
+    padding-right: 130px;
+    
+}
+ 
+
+.hero-title{
+    color: rgb(21, 20, 20);
+    font-size: 65px;
+}
+.hero-description{
+    color: rgb(68, 67, 67);
+
+font-size: 16px;
+
+}
+
+/* Main section Style */
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-sec-left{
+    width: 50%;
+   
+}
+.main-sec-right{
+   
+    width: 50%;
+   
+    display: grid;
+   
+}
+
+.main-sec-title{
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+
+}
+.main-sec-description{
+    color: rgb(68, 67, 67);
+
+font-size: 16px;
+font-weight: 400;
+
+}
+
+/* My Plans  section Style */
+.plans{
+    
+    width: 1141px;
+    height: 299.96px;
+    display: block;
+}
+.plans-title{
+    text-align: center;
+}
+.plans-up{
+    display: flex;
+    justify-content: center;
+}
+.plans-down{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
